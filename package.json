@@ -1,6 +1,6 @@
 {
   "name": "scrape2csv",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple node package scraping a web page and spitting the results in a CSV file.",
   "author": {
     "name": "Fabien Allanic",
@@ -27,10 +27,14 @@
   "main": "lib/scrape2csv",
   "keywords": [
     "scrape",
+    "website",
+    "csv",
+    "file",
+    "spreadsheet",
+    "excel",
     "scraper",
     "scraping",
     "jquery",
-    "csv",
     "css",
     "selector",
     "export"
