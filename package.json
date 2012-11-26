@@ -1,0 +1,33 @@
+{
+  "name": "scrape2csv",
+  "version": "0.1.0",
+  "description": "A simple node package scraping a web page and spitting the results in a CSV file.",
+  "author": {
+    "name": "Fabien Allanic",
+    "email": "fabien.allanic@gmail.com"
+  },
+  "dependencies": {
+    "jsdom": "0.x.x",
+    "ya-csv": "0.9.x",
+    "request": "2.x.x"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fallanic/scrape2csv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fallanic/cli-scrape2csv/issues"
+  },  
+  "main": "lib/scrape2csv",
+  "keywords": [
+    "scrape",
+    "scraper",
+    "scraping",
+    "jquery",
+    "csv",
+    "css",
+    "selector",
+    "export"
+  ],
+  "engine": "node >= 0.4.1"
+}
