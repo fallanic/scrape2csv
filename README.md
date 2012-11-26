@@ -31,7 +31,7 @@ Scraping is pretty straightforward :
     scrape2csv.scrape("/tmp/echojs.csv", url_to_scrape, jquery_selector, handler, header);
 
 
-Each element fitting the jquery selector will call the handler provided as a parameter. 
+Each element matching the jquery selector will call the handler provided as a parameter. 
 The array returned by the handler will create a new csv line.
 
 That's all folks!
