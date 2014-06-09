@@ -1,4 +1,15 @@
-var scrape2csv = require('scrape2csv');
+/*
+To run this script :
+
+npm install
+node ./sample/example.js
+
+When the script ends
+
+less /tmp/echojs.csv
+
+ */
+var scrape2csv = require('../lib/scrape2csv');
 
 //let's scrape a cool website
 var url_to_scrape = "http://www.echojs.com";
