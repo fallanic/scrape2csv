@@ -1,13 +1,13 @@
 {
   "name": "scrape2csv",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple node package scraping a web page and spitting the results in a CSV file.",
   "author": {
     "name": "Fabien Allanic",
     "email": "fabien.allanic@gmail.com"
   },
   "dependencies": {
-    "jsdom": "0.x.x",
+    "jsdom": "0.2.x",
     "ya-csv": "0.9.x",
     "request": "2.x.x"
   },  
